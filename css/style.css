@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    background-color: #061b2f;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-height: 500px;
+}
+
+#logo{
+    color: #3cff8d;
+    font-size: 50px;
+    padding: 10px 29px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: azure;
+    display: block;
+    padding: 10px;
+    text-align: center;    
+}
+
+.nav-bar a:hover{
+    color: #3cff8d;
+}
+
+.nav-bar ul{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 0;
+    display: block;
+    list-style: none;
+
+}
+
+
+
+
+
+
+
+
