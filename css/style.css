@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
 }
-
+/* NAVIGATION */
 .nav-bar{
     background-color: #061b2f;
     width: 100px;
@@ -50,7 +51,7 @@ a{
     display: block;
     list-style: none;
 }
-
+/* HOME PAGE */
 .homepage{
     height: 100vh;
     background: 
@@ -83,7 +84,7 @@ a{
     margin: 20px 2px;
     cursor: pointer;
 }
-
+/* ABOUT ME PAGE */
 .aboutpage{
     height: 100vh;
     background: 
@@ -98,14 +99,14 @@ a{
 }
 
 .container{
-    width: 980px;
-    height: 100%;
-    margin: 0 auto;
+    width: 500px;
+    height: 700px;
+    margin: 0;
 }
 
 .container-l{
-    width: 40%;
-    margin: 0 0 0 120px;;
+    width: 100%;
+    margin: 0 0 0 150px;;
     float: left;
     padding-top: 150px;
 }
@@ -123,5 +124,12 @@ a{
     margin-top: 15px;
 }
 
+.icons{
+    color: #061b2f;
+}
+
+.html:hover, .css:hover, .js:hover, .git:hover{
+    color: #3cff8d
+}
 
 
