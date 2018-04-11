@@ -64,7 +64,7 @@ a{
     background-repeat: no-repeat; 
 }
 
-.homepage .text{
+.text{
     font-size: 20px;
     color: #f0ffff;
     position: absolute;
@@ -84,6 +84,44 @@ a{
     cursor: pointer;
 }
 
+.aboutpage{
+    height: 100vh;
+    background: 
+    linear-gradient(90deg,
+        rgba(6, 27, 47,0.8),
+        rgba(6, 75, 139, 0.8)
+    ),
+    url(../img/alejandro-escamilla-5-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-l{
+    width: 40%;
+    margin: 0 0 0 120px;;
+    float: left;
+    padding-top: 150px;
+}
+
+.text-about h2, .text-skills h2{
+    color: #3cff8d;
+}
+
+.text-about p, .text-skills p{
+    color: #f0ffff;
+    line-height: 1.5em;
+}
+
+.text-skills{
+    margin-top: 15px;
+}
 
 
 
