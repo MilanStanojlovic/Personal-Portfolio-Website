@@ -84,6 +84,16 @@ a{
     margin: 20px 2px;
     cursor: pointer;
 }
+
+.button-contact:hover{
+    background-color: #3cff8d;
+    color: #061b2f;
+    border: #061b2f;
+    opacity: 0.75;
+    -webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
 /* ABOUT ME PAGE */
 .aboutpage{
     height: 100vh;
@@ -223,17 +233,18 @@ fieldset {
 #contact button[type="submit"] {
 	cursor:pointer;
 	width:30%;
-	border:1px solid ;
-	background:transparent;
-	color:#FFF;
+	border:1px solid;
+    background:transparent;
+	color:#3cff8d;
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
 }
 
 #contact button[type="submit"]:hover {
-    background:#061b2f;
-    border: 1px solid #3cff8d;
+    background:#3cff8d;
+    color: #061b2f;
+    border: 1px solid #061b2f;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -281,5 +292,5 @@ fieldset {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+
 }
