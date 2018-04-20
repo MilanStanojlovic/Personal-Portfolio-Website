@@ -132,6 +132,20 @@ a{
     color: #3cff8d
 }
 
+/* Work Page */
+.workpage{
+    height: 100vh;
+    background: 
+    linear-gradient(90deg,
+        rgba(6, 27, 47,0.8),
+        rgba(6, 75, 139, 0.8)
+    ),
+    url(../img/alejandro-escamilla-5-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* Contact Page */
 .contactpage{
     height: 100vh;
@@ -148,12 +162,12 @@ a{
 
 /* Contact Form */
 
-.container {
+/* .container {
 	max-width:400px;
 	width:100%;
 	margin:0;
 	position:relative;
-}
+} */
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="subject"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
 color: #CCC }
@@ -244,3 +258,28 @@ fieldset {
  color:#888;
 }
 
+/* Responsive Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
