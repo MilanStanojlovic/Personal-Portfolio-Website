@@ -111,8 +111,9 @@ a{
 }
 
 .container{
-    width: 50%;
-    height: 700px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .container-l{
@@ -122,11 +123,11 @@ a{
     max-width: 500px;
 }
 
-.text-about h2, .text-skills h2, .text-contact h2{
+h2{
     color: #3cff8d;
 }
 
-.text-about p, .text-skills p, .text-contact p{
+p{
     color: #f0ffff;
     line-height: 1.5em;
 }
@@ -175,7 +176,6 @@ a{
 .form-container {
     max-width:450px;
 	width:100%;
-	margin:0;
 	position:relative;
 } 
 
@@ -280,7 +280,7 @@ fieldset {
 
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, up to 768px) */
 @media only screen and (max-width: 768px) {
     .nav-bar{
         display: none;
@@ -289,17 +289,18 @@ fieldset {
 
     .text{
         text-align: center;
-        padding-top: 30%;
+        padding-top: 50%;
         padding-left: 0;
     }
 
     .container{
-        width: 80%;
+        width: 100%;
     }
 
     .container-l{
         text-align: center;
-        padding: 20px;
+        padding: 3%;
+        width: 90%;
         
     }
 } 
