@@ -68,9 +68,11 @@ a{
 .text{
     font-size: 20px;
     color: #f0ffff;
-    position: absolute;
-    top: 35%;
-    left: 150px;
+    /* position: fixed; */
+    /* top: 35%; */
+    /* left: 150px; */
+    padding-top: 320px;
+    padding-left: 150px;
 }
 
 .button-contact{
@@ -109,16 +111,15 @@ a{
 }
 
 .container{
-    width: 500px;
+    width: 50%;
     height: 700px;
-    margin: 0;
 }
 
 .container-l{
     width: 100%;
-    margin: 0 0 0 150px;;
-    float: left;
+    padding-left: 150px;
     padding-top: 150px;
+    max-width: 500px;
 }
 
 .text-about h2, .text-skills h2, .text-contact h2{
@@ -171,13 +172,12 @@ a{
 }
 
 /* Contact Form */
-
-/* .container {
-	max-width:400px;
+.form-container {
+    max-width:450px;
 	width:100%;
 	margin:0;
 	position:relative;
-} */
+} 
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="subject"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
 color: #CCC }
@@ -272,17 +272,36 @@ fieldset {
 /* Responsive Media Queries */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+    .nav-bar{
+        display: none;
+    }
+    
 
+    .text{
+        text-align: center;
+        padding-top: 30%;
+        padding-left: 0;
+    }
+
+    .container{
+        width: 80%;
+    }
+
+    .container-l{
+        text-align: center;
+        padding: 20px;
+        
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
