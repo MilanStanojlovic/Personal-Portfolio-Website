@@ -301,7 +301,11 @@ fieldset {
         text-align: center;
         padding: 3%;
         width: 90%;
-        
+        max-width: 100%
+    }
+
+    .form-container{
+        max-width: 100%;
     }
 } 
 
