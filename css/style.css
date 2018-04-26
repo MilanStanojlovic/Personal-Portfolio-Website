@@ -39,7 +39,7 @@ a{
     text-align: center;    
 }
 
-.nav-bar a:hover{
+.nav-bar a:hover, .mobile-nav a:hover{
     color: #3cff8d;
 }
 
@@ -51,6 +51,28 @@ a{
     display: block;
     list-style: none;
 }
+
+/* MOBILE NAVIGATION */
+.mobile-nav{
+    background-color: #061b2f;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    opacity: 0.8;
+    border-top:1px solid #7fffd4;
+    visibility: hidden;
+}
+
+.mobile-nav ul {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.mobile-nav ul li{
+    display: inline-block;
+}
+
 /* HOME PAGE */
 .homepage{
     height: 100vh;
@@ -275,10 +297,7 @@ fieldset {
     
 } 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
 
-} 
 
 /* Medium devices (landscape tablets, up to 768px) */
 @media only screen and (max-width: 768px) {
@@ -286,7 +305,6 @@ fieldset {
         display: none;
     }
     
-
     .text{
         text-align: center;
         padding-top: 50%;
@@ -301,13 +319,28 @@ fieldset {
         text-align: center;
         padding: 3%;
         width: 90%;
-        max-width: 100%
+        max-width: 100%;
+        transform: translateY(5%);
     }
 
     .form-container{
         max-width: 100%;
     }
+
+    .mobile-nav{
+        visibility: visible;
+    }
 } 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 600px) {
+    .container-l{
+        text-align: center;
+        padding: 1%;
+        width: 100%; 
+        transform: translateY(2%);
+    }
+}  */
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
