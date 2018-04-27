@@ -55,7 +55,7 @@ a{
 /* MOBILE NAVIGATION */
 .mobile-nav{
     background-color: #061b2f;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 3;
