@@ -301,6 +301,14 @@ fieldset {
 
 /* Medium devices (landscape tablets, up to 768px) */
 @media only screen and (max-width: 768px) {
+
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    
     .nav-bar{
         display: none;
     }
@@ -320,7 +328,7 @@ fieldset {
         padding: 3%;
         width: 90%;
         max-width: 100%;
-        transform: translateY(5%);
+        transform: translateY(3%);
     }
 
     .form-container{
