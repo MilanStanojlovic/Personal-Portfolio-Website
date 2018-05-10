@@ -4,6 +4,19 @@
     font-family: 'Roboto', sans-serif;
     
 }
+body{
+    background-color: #061b2f;
+}
+
+h2{
+    color: #3cff8d;
+}
+
+p{
+    color: #f0ffff;
+    line-height: 1.5em;
+}
+
 /* NAVIGATION */
 .nav-bar{
     background-color: #061b2f;
@@ -145,15 +158,6 @@ a{
     max-width: 500px;
 }
 
-h2{
-    color: #3cff8d;
-}
-
-p{
-    color: #f0ffff;
-    line-height: 1.5em;
-}
-
 .text-skills{
     margin-top: 15px;
 }
@@ -162,7 +166,7 @@ p{
     color: #061b2f;
 }
 
-.html:hover, .css:hover, .js:hover, .git:hover{
+.html:hover, .css:hover, .js:hover, .git:hover, .gulp:hover{
     color: #3cff8d
 }
 
@@ -337,6 +341,10 @@ fieldset {
 
     .mobile-nav{
         visibility: visible;
+    }
+
+    .html, .css, .js, .git, .gulp{
+        color: #3cff8d
     }
 } 
 
