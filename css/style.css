@@ -8,21 +8,24 @@ body{
     background-color: #061b2f;
 }
 
-h2{
+h2, .email-icon{
     color: #3cff8d;
 }
 
-p{
+p, .mail{
     color: #f0ffff;
     line-height: 1.5em;
+}
+.mail{
+    text-decoration: underline;
 }
 
 /* NAVIGATION */
 .nav-bar{
     background-color: #061b2f;
     width: 100px;
-    height: 100%;
-    position: absolute;
+    height: 100vh;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 2;
